@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.projectname.hello.CalcTest" time="0" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.projectname.hello.CalcTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Dell\Desktop\251\Tur--4\Tur-4\hello"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Dell\Desktop\251\Tur--4\Tur-4\git -2"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Dell\Desktop\251\Tur--4\Tur-4\hello"/>
+    <property name="user.dir" value="C:\Users\Dell\Desktop\251\Tur--4\Tur-4\git -2"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
     <property name="os.arch" value="amd64"/>
@@ -61,5 +61,12 @@
     <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.projectname.hello.CalcTest" name="testCalc" time="0"/>
+  <testcase classname="com.projectname.hello.CalcTest" name="testCalc" time="0.001">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.projectname.hello.CalcTest.testCalc(CalcTest.java:36)
+</failure>
+  </testcase>
 </testsuite>
